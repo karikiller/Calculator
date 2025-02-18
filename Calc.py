@@ -4,9 +4,14 @@ y = int(input("Введите второе число - "))
 thing = input("Выберите действие: +, -, *, /")
 
 match thing:
-  case "+":
+    case "+":
         result = x + y
         print(f"Результат: {x} + {y} = {result}")
     case "-":
         result = x - y
         print(f"Результат: {x} - {y} = {result}")
+    case "/":
+        print(x / y)
+        
+    case "*":
+        print(x * y)
